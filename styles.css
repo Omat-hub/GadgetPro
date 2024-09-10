@@ -162,11 +162,12 @@ header nav div span i {
 
 .promo {
     display: flex;
-    flex-flow: wrap;
-    width: 100%;
+    justify-content: space-evenly;
+    gap: 20px;
 }
 
 .promo-card {
     background-image: url(images/bg/promo-bg-img1.png);
-    height: 100px;
+    height: 150px;
+    width: 30.333%;
 }
